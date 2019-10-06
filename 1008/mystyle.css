@@ -1,0 +1,342 @@
+ul,li{list-style:none;}
+ul , li { padding : 0 ; margin : 0 ;}
+
+
+
+.bg {
+    width: 1260px;
+    height: 880px;
+    background-color: #edf2c5;
+  }
+
+ /*==登入==*/
+
+ .Vegetables {
+    width: 271px;
+    height: 62px;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.82;
+    letter-spacing: normal;
+    text-align: left;
+    color: #778a50;
+  }
+
+header{
+    width: 940px;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+   }
+   
+nav{
+    display: flex;
+    align-items: flex-end;
+   }
+   
+.navitem{
+    display: flex;
+    align-items: center; 
+}
+
+.btn_facebook {
+    width: 25px;
+    height: 25px;
+    padding-right:10px;
+  }
+
+.btn_instagram {
+    width: 25px;
+    height: 25px;
+    padding-right:10px;
+  }
+
+.line_login {
+    width: 1px;
+    height: 25px;
+    background-color: #778a50;
+  }
+
+  .btn_JOIN_box {
+    width: 49px;
+    height: 25px;
+    border: solid 1px #778a50;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: #778a50;
+    margin:0px 0px;
+  }
+
+.btn_LOGIN_box {
+    width: 60px;
+    height: 25px;
+    border: solid 1px #778a50;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: #778a50;
+    margin:0px 10px;
+    
+  }
+  
+/*==導覽列==*/
+#NAVFLEX{
+    padding-top:18px;
+}
+  #NAV {
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin:0 auto;
+  }
+  #NAV li{
+    float:left;
+  }
+  #NAV li a{
+    display:block;
+    width:188px;
+    height:44px;
+    line-height:44px;
+  }
+  .Home {
+    width: 51px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    padding-left:30px;
+  }
+  .About-Us {
+    width: 80px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    padding-left:60px;
+  }
+  .Vegetables1 {
+    width: 98px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    padding-left:60px;
+  }
+  .Online {
+    width: 56px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    padding-left:60px;
+  }
+  .Contact {
+    width: 69px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    padding-left:60px;
+  }
+
+/*==首圖==*/
+
+.img_main_pumpkin {
+    width: 940px;
+    height: 448px;
+    display: flex;
+    margin:20px auto;
+  }
+
+/*==下方雙欄==*/
+
+.DIVSTYLE{
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height:15px;
+  letter-spacing: normal;
+  text-align: left;
+  padding-left:30px;
+  color: #edf2c5;
+}
+
+#DIV1{
+    width:444px;
+    height: 45px;
+    line-height:45px;
+    border-radius: 3px;
+    margin-left:160px;
+    background-color: #778a50;
+    float:left;
+    }
+    
+#DIV2{
+    width:444px;
+    height: 45px;
+    line-height:45px;
+    margin-left:52px;
+    border-radius: 3px;
+    background-color: #778a50;
+    float:left;
+    }
+
+/*往下三張圖*/
+
+#DIV3PIC{
+    width:444px;
+    height:140px;
+    display: flex;
+    float:left;
+    padding-left:160px;
+    margin-top:15px;
+}
+
+.img_vegetables_pepper {
+    width: 140px;
+    height: 140px;
+    }
+
+.img_vegetables_carrot {
+    width: 140px;
+    height: 140px;
+    padding-left:12px;
+    }   
+
+.img_vegetables_corn {
+    width: 140px;
+    height: 140px;
+    padding-left:12px;
+    }
+
+/*右邊內文*/
+
+#DIV4TEXT{
+    width:444px;
+    height:140px;
+    background-color: #f7fbda;
+    margin-left:52px;
+    margin-top:15px;
+}
+
+.body_box_contact_text {
+    width: 444px;
+    height: 44px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7d7d7d;
+    margin:15px;
+}
+
+.line_contact_text {
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+    margin:15px;
+  }
+
+.body_box_contact_text1 {
+    width: 444px;
+    height: 44px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7d7d7d;
+    margin:15px;
+}
+
+
+#DIVDIV{        /*控制三圖片與文字欄的排列*/
+    width: 940px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*FOOTER*/
+
+.box_footer {
+    width: 1260px;
+    height: 60px;
+    background-color: #778a50;
+    margin-top:35px;
+  }
+
+.footertxt{
+width: 1260px;
+height: 14px;
+font-family: Arial;
+font-size: 12px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 3;
+letter-spacing: normal;
+text-align: center;
+color: #edf2c5;
+}
+
+#footercenter{
+    display:flex;
+    align-items: center;
+}
